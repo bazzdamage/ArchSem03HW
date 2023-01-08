@@ -7,6 +7,10 @@ import Abstract.iWipe;
 public class PickUp extends Car implements iRefueling, iWipe {
     private int loadCapacity;
 
+    public PickUp(int loadCapacity) {
+        this.loadCapacity = loadCapacity;
+    }
+
     public int getLoadCapacity() {
         return loadCapacity;
     }

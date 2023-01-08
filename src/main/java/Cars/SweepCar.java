@@ -4,6 +4,10 @@ import Abstract.Car;
 
 public class SweepCar extends Car {
 
-    public void sweeping(){}
+    public SweepCar() {
+    }
+
+    public void sweeping() {
+    }
 
 }
